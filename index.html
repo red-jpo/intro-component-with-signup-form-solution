@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Intro component with sign up form | Frontend Mentor</title>
+  </head>
+  <body>
+    <!-- Main Container -->
+    <main>
+      <!-- text section -->
+      <section class="colum-text">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <!-- form section -->
+      <section class="colum-form">
+        <div class="trial-btn">
+          <p><b>Try it free 7 days </b>then $20/mo. thereafter</p>
+        </div>
+        <!-- Form -->
+        <form class="form">
+          <!-- Name-->
+          <div class="input-div">
+            <input
+              class="first-name"
+              id="first-name"
+              type="text"
+              placeholder="First Name"
+            />
+            <img src="images/icon-error.svg" alt="error-icon" />
+            <label for="first-name" class="first-name-label"></label>
+          </div>
+          <!-- Last name -->
+          <div class="input-div">
+            <input class="last-name" type="text" placeholder="Last Name" />
+            <img src="images/icon-error.svg" alt="error-icon" />
+            <label for="last-name" class="last-name-label"></label>
+          </div>
+          <!-- Email -->
+          <div class="input-div">
+            <input
+              class="email-address"
+              type="email"
+              placeholder="Email Address"
+            />
+            <img src="images/icon-error.svg" alt="error-icon" />
+            <label for="email-address" class="email-label"></label>
+          </div>
+          <!-- Password -->
+          <div class="input-div">
+            <input class="password" type="password" placeholder="Password" />
+            <img src="images/icon-error.svg" alt="error-icon" />
+            <label for="password" class="password-label"></label>
+          </div>
+          <div class="claim-div">
+            <label for="claim-btn" class="confirmation"></label>
+            <button class="claim-btn" id="claim-btn" type="submit">
+              Claim your free trial
+            </button>
+          </div>
+          <p class="tns" for="claim-btn">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/red-jpo" target="_blank">Red.jpo</a>.
+      </p>
+    </footer>
+  </body>
+</html>
