@@ -182,6 +182,7 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 1.4rem;
     margin-top: 7rem;
+    max-width: 90%;
   }
   .column-text {
     text-align: center;
