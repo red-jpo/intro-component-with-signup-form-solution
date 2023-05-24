@@ -1,0 +1,40 @@
+//colors
+$Red: hsl(0, 100%, 74%);
+$Green: hsl(154, 59%, 51%);
+//Accent
+$Blue: hsl(248, 32%, 49%);
+//Neutral
+$Dark-Blue: hsl(249, 10%, 26%);
+$Grayish-Blue: hsl(246, 25%, 77%);
+
+//font weights: 400 500 600 700
+
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(https://raw.githubusercontent.com/red-jpo/intro-component-with-signup-form-solution/main/images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $Red;
+  background-position: center;
+}
+
+// footer {
+//   margin: 4rem 5rem;
+//   text-align: center;
+//   line-height: 1.5rem;
+//   margin: 4rem 5rem;
+
+//   .attribution {
+//     font-size: 0.8rem;
+//   }
+
+//   a {
+//     font-size: 0.9rem;
+//   }
+// }

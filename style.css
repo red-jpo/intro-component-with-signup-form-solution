@@ -1,0 +1,14 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(https://raw.githubusercontent.com/red-jpo/intro-component-with-signup-form-solution/main/images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(0, 100%, 74%);
+  background-position: center;
+}/*# sourceMappingURL=style.css.map */
