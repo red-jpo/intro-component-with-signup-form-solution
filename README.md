@@ -22,7 +22,7 @@ This project is the solution for [Frontend Mentor ABase Apparel Coming Soon Page
 ### Links
 
 - [Solution URL](https://github.com/red-jpo/base-apparel-coming-soon-solution)
-- [Live Site URL](https://red-jpo.github.io/base-apparel-coming-soon-solution/)
+- [Live Site URL](https://red-jpo.github.io/intro-component-with-signup-form-solution/)
 
 ## About this project
 
