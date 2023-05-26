@@ -32,6 +32,8 @@ main {
   justify-content: center;
   max-width: 100%;
   color: white;
+  grid-row: 1;
+  grid-column: 1;
   gap: 2rem;
 }
 .column-text h1 {
@@ -46,6 +48,8 @@ main {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  grid-row: 1;
+  grid-column: 2;
   gap: 1.3rem;
 }
 
@@ -162,6 +166,8 @@ footer {
   text-align: center;
   line-height: 1.5rem;
   margin-top: 5rem;
+  grid-row: 2;
+  grid-column: 1/span 2;
 }
 footer .attribution,
 footer a {
@@ -177,22 +183,32 @@ footer a {
 
 @media screen and (max-width: 768px) {
   main {
-    grid-template-columns: 1fr;
+    height: 100vh;
+    grid-template-columns: minmax(20rem, 40rem);
     max-width: 90%;
     grid-gap: 4rem;
     margin-top: 6rem;
   }
   .column-text {
     text-align: center;
+    grid-row: 1;
+    grid-column: 1;
   }
   .column-text h1 {
     font-size: 2rem;
+  }
+  .column-form {
+    grid-row: 2;
+    grid-column: 1;
   }
   form {
     padding: 1rem 1.2rem;
     max-width: 100%;
   }
   footer {
-    margin: 2rem 0 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    grid-row: 3;
+    grid-column: 1;
   }
 }/*# sourceMappingURL=style.css.map */
