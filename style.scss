@@ -17,421 +17,221 @@ $Grayish-Blue: hsl(246, 25%, 77%);
   margin: 0;
 }
 
-// body {
-//   height: 100vh;
-//   background-image: url("images/bg-intro-desktop.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-color: $Red;
-//   background-position: center;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   flex-direction: column;
-// }
+body {
+  height: 100vh;
+  background-image: url("images/bg-intro-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $Red;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-// main {
-//   max-width: 70rem;
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   max-height: 95vh;
-//   grid-gap: 5rem;
-// }
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-height: 95vh;
+  max-width: 70rem;
+  grid-gap: 5rem;
+}
 
-// // Text column
+// Text column
 
-// .column-text {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   max-width: 100%;
-//   color: white;
+.column-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  color: white;
 
-//   gap: 2rem;
+  gap: 2rem;
 
-//   h1 {
-//     font-size: 3rem;
-//     line-height: 3rem;
-//   }
-
-//   p {
-//     font-weight: 500;
-//   }
-// }
-
-// // Form column
-
-// .column-form {
-//   display: flex;
-//   flex-direction: column;
-//   max-width: 100%;
-
-//   gap: 1.3rem;
-// }
-
-// .trial-div {
-//   border-radius: 10px;
-//   background-color: $Blue;
-//   color: white;
-//   text-align: center;
-//   font-weight: 400;
-//   font-size: 1rem;
-//   padding: 1.2rem 5rem;
-//   box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.29);
-// }
-
-// form {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 1.3rem;
-//   background-color: white;
-//   border-radius: 10px;
-//   padding: 2.5rem 2.7rem;
-//   box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.29);
-
-//   .input-div {
-//     max-width: 100%;
-//     display: flex;
-//     flex-direction: column;
-//     position: relative;
-//   }
-
-//   input {
-//     padding: 1.1rem 1.5rem;
-//     border-radius: 5px;
-//     border-width: 1px;
-//     border-style: solid;
-//     border-color: $Grayish-Blue;
-
-//     &[type="email"],
-//     &[type="text"],
-//     &[type="password"] {
-//       font-weight: 700;
-//       font-size: 0.9rem;
-//       color: $Darkest-Blue;
-//     }
-
-//     &::placeholder {
-//       font-weight: 600;
-//       font-size: 0.9rem;
-//       opacity: 0.8;
-//     }
-
-//     &:focus-visible {
-//       outline-width: 1px;
-//       outline-style: solid;
-//       outline-color: $Blue;
-//     }
-//   }
-
-//   img {
-//     // display: none;
-//     right: 5%;
-//     top: 30%;
-//     position: absolute;
-//     height: 1.5rem;
-//     width: 1.5rem;
-//   }
-// }
-
-// // Labels
-// .first-name-label,
-// .last-name-label,
-// .email-label,
-// .password-label {
-//   text-align: right;
-//   font-size: 0.7rem;
-//   font-weight: 500;
-//   color: $Red;
-//   font-style: italic;
-// }
-
-// .confirmation {
-//   font-size: 0.8rem;
-//   font-weight: 500;
-//   color: $Green;
-//   font-style: italic;
-//   text-align: center;
-// }
-
-// .claim-btn {
-//   border-radius: 5px;
-//   border: none;
-//   cursor: pointer;
-//   background-color: $Green;
-//   color: white;
-//   text-transform: uppercase;
-//   padding: 1.1rem;
-//   font-size: 0.9rem;
-//   font-weight: 600;
-//   letter-spacing: 0.05rem;
-//   width: 100%;
-
-//   &:hover {
-//     transition: all ease-in-out 0.3s;
-//     background-color: lighten($Green, 15%);
-//   }
-// }
-
-// .terNser {
-//   font-size: 0.69rem;
-//   font-weight: 600;
-//   color: $Grayish-Blue;
-//   text-align: center;
-//   text-decoration: none;
-
-//   a {
-//     color: $Red;
-//   }
-// }
-
-// footer {
-//   max-height: 5vh;
-//   text-align: center;
-//   line-height: 1.5rem;
-//   margin-top: 5rem;
-
-//   .attribution,
-//   a {
-//     text-decoration: none;
-//     color: $Blue;
-//     font-weight: 600;
-//     font-size: 0.9rem;
-//     opacity: 0.8;
-//   }
-
-//   a {
-//     color: white;
-//   }
-// }
-
-@media screen and (max-width: 768px) {
-  //   body {
-
-  //     display: flex;
-  //     flex-direction: column;
-  //     align-items: center;
-  //     max-height: 100vh;
-  //     width: 100vw;
-  //   }
-  //   main {
-  //     display: grid;
-  //     width: 90%;
-  //     // margin-top: 25rem;
-
-  //     grid-template-columns: 1fr;
-  //     // grid-gap: 1.4rem;
-  //     // margin-top: 7rem;
-  //     // max-width: 90%;
-  //   }
-  //   .column-text {
-  //     grid-row: 1;
-
-  //     // text-align: center;
-
-  //     h1 {
-  //       font-size: 2.5rem;
-  //     }
-  //   }
-
-  //   .column-form {
-  //     grid-row: 2;
-  //   }
-
-  //   footer {
-  //     grid-row: 3;
-  //   }
-
-  body {
-    height: 100vh;
-    background-image: url("images/bg-intro-mobile.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $Red;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 
+  p {
+    font-weight: 500;
+  }
+}
+
+// Form column
+
+.column-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+
+  gap: 1.3rem;
+}
+
+.trial-div {
+  border-radius: 10px;
+  background-color: $Blue;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1.2rem 5rem;
+  box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.29);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2.5rem 2.7rem;
+  box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.29);
+
+  .input-div {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  input {
+    padding: 1.1rem 1.5rem;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $Grayish-Blue;
+
+    &[type="email"],
+    &[type="text"],
+    &[type="password"] {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: $Darkest-Blue;
+    }
+
+    &::placeholder {
+      font-weight: 600;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+
+    &:focus-visible {
+      outline-width: 1px;
+      outline-style: solid;
+      outline-color: $Blue;
+    }
+  }
+
+  img {
+    // display: none;
+    right: 5%;
+    top: 30%;
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+// Labels
+.first-name-label,
+.last-name-label,
+.email-label,
+.password-label {
+  text-align: right;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: $Red;
+  font-style: italic;
+}
+
+.confirmation {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: $Green;
+  font-style: italic;
+  text-align: center;
+}
+
+.claim-btn {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: $Green;
+  color: white;
+  text-transform: uppercase;
+  padding: 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  width: 100%;
+
+  &:hover {
+    transition: all ease-in-out 0.3s;
+    background-color: lighten($Green, 15%);
+  }
+}
+
+.terNser {
+  font-size: 0.69rem;
+  font-weight: 600;
+  color: $Grayish-Blue;
+  text-align: center;
+  text-decoration: none;
+
+  a {
+    color: $Red;
+  }
+}
+
+footer {
+  text-align: center;
+  line-height: 1.5rem;
+  margin-top: 5rem;
+
+  .attribution,
+  a {
+    text-decoration: none;
+    color: $Blue;
+    font-weight: 600;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 768px) {
   main {
-    max-width: 85%;
-    display: grid;
     grid-template-columns: 1fr;
-    max-height: 95vh;
+    max-width: 90%;
     grid-gap: 4rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
   }
 
   // Text column
 
   .column-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
-    color: white;
     text-align: center;
-    //     grid-row: 1;
-    gap: 2rem;
 
     h1 {
       font-size: 2rem;
-      line-height: 3rem;
-    }
-
-    p {
-      font-weight: 500;
     }
   }
 
   // Form column
 
-  .column-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-
-    gap: 1.3rem;
-    //     grid-row: 2;
-  }
-
-  .trial-div {
-    border-radius: 10px;
-    background-color: $Blue;
-    color: white;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1rem;
-    padding: 1.2rem 3rem;
-    box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.29);
-  }
-
   form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    background-color: white;
-    border-radius: 10px;
     padding: 1rem 1.2rem;
-    max-width: 20rem;
-    box-shadow: 0px 9px 5px -1px rgba(0, 0, 0, 0.29);
-
-    .input-div {
-      max-width: 100%;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-    }
-
-    //     input {
-    //       padding: 1.1rem 1.5rem;
-    //       border-radius: 5px;
-    //       border-width: 1px;
-    //       border-style: solid;
-    //       border-color: $Grayish-Blue;
-
-    //       &[type="email"],
-    //       &[type="text"],
-    //       &[type="password"] {
-    //         font-weight: 700;
-    //         font-size: 0.9rem;
-    //         color: $Darkest-Blue;
-    //       }
-
-    //       &::placeholder {
-    //         font-weight: 600;
-    //         font-size: 0.9rem;
-    //         opacity: 0.8;
-    //       }
-
-    //       &:focus-visible {
-    //         outline-width: 1px;
-    //         outline-style: solid;
-    //         outline-color: $Blue;
-    //       }
-    //     }
-
-    //     img {
-    //       // display: none;
-    //       right: 5%;
-    //       top: 30%;
-    //       position: absolute;
-    //       height: 1.5rem;
-    //       width: 1.5rem;
-    //     }
+    max-width: 100%;
   }
 
-  //   // Labels
-  //   .first-name-label,
-  //   .last-name-label,
-  //   .email-label,
-  //   .password-label {
-  //     text-align: right;
-  //     font-size: 0.7rem;
-  //     font-weight: 500;
-  //     color: $Red;
-  //     font-style: italic;
-  //   }
+  // Labels
 
-  //   .confirmation {
-  //     font-size: 0.8rem;
-  //     font-weight: 500;
-  //     color: $Green;
-  //     font-style: italic;
-  //     text-align: center;
-  //   }
-
-  //   .claim-btn {
-  //     border-radius: 5px;
-  //     border: none;
-  //     cursor: pointer;
-  //     background-color: $Green;
-  //     color: white;
-  //     text-transform: uppercase;
-  //     padding: 1.1rem;
-  //     font-size: 0.9rem;
-  //     font-weight: 600;
-  //     letter-spacing: 0.05rem;
-  //     width: 100%;
-
-  //     &:hover {
-  //       transition: all ease-in-out 0.3s;
-  //       background-color: lighten($Green, 15%);
-  //     }
-  //   }
-
-  //   .terNser {
-  //     font-size: 0.69rem;
-  //     font-weight: 600;
-  //     color: $Grayish-Blue;
-  //     text-align: center;
-  //     text-decoration: none;
-
-  //     a {
-  //       color: $Red;
-  //     }
-  //   }
-
-  //   footer {
-  //     max-height: 5vh;
-  //     text-align: center;
-  //     line-height: 1.5rem;
-  //     margin-top: 5rem;
-  //     grid-row: 3;
-
-  //     .attribution,
-  //     a {
-  //       text-decoration: none;
-  //       color: $Blue;
-  //       font-weight: 600;
-  //       font-size: 0.9rem;
-  //       opacity: 0.8;
-  //     }
-
-  //     a {
-  //       color: white;
-  //     }
-  //   }
+  footer {
+    margin: 2rem 0 2rem 0;
+  }
 }
