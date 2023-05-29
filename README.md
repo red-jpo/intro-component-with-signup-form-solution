@@ -1,6 +1,6 @@
-# Frontend Mentor - Base Apparel Coming Soon Page
+# Frontend Mentor - Intro component with sign-up form
 
-This project is the solution for [Frontend Mentor ABase Apparel Coming Soon Page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0/hub) for beginners to improve HTML, CSS and JS skills.
+This project is the solution for [Frontend Mentor Intro component with sign-up form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub) to practice HTML, CSS and JS skills.
 
 ## Table of contents
 
@@ -16,12 +16,14 @@ This project is the solution for [Frontend Mentor ABase Apparel Coming Soon Page
 
 ### Screenshot
 
-![](/images/Screenshot2023-05-09Desktop.png) ![](/images/Screenshot2023-05-09DesktopActive.png)
-![](/images/Screenshot2023-05-09Mobile.png) ![](/images/Screenshot2023-05-09MobileActive.png)
+![](/images/d-default.png) ![](/images/d-error-empty.png)
+![](/images/d-error-message.png) ![](/images/d-success.png)
+![](/images/m-default.png) ![](/images/m-error-empty.png)
+![](/images/m-error-message.png) ![](/images/m-success.png)
 
 ### Links
 
-- [Solution URL](https://github.com/red-jpo/base-apparel-coming-soon-solution)
+- [Solution URL](https://github.com/red-jpo/intro-component-with-signup-form-solution)
 - [Live Site URL](https://red-jpo.github.io/intro-component-with-signup-form-solution/)
 
 ## About this project
@@ -31,13 +33,16 @@ This project is the solution for [Frontend Mentor ABase Apparel Coming Soon Page
 - HTML5
 - SASS
 - JavaScript
+- Git
 
 ### Useful resources
 
-- [Chat Gpt](https://chat.openai.com/) - I've been using it as a tutor of sorts.
+- [Chat Gpt](https://chat.openai.com/) - Quite handy.
 
 - [MDN](https://developer.mozilla.org/en-US/) - Documentation and reference.
 
+- [Git tutorial](https://www.youtube.com/watch?v=mJ-qvsxPHpY&ab_channel=NickWhite) - Best git tutorial I could find
+
 ## Final Notes
 
-It's been a while since I last used Grid; Flexbox has been my go-to, so it was a nice reminder that there are different layout options to explore. This project wasn't complex, but it led to a ton of research. I had my first peek into constraint validation features and how to include them. I found it pretty useful. The JavaScript was quite simple this time, but it was also a first, as I had to implement email format validation. I thought of adding an email verification feature, so I looked into it, but since it requires APIs, I won't be doing that this time. I haven't gotten to that module yet, and I'm focused on taking things one step at a time. I've learned a lot from this project, and I'm pleased with the outcome.
+First dive into the world of Git, and let me tell you, it was quite the adventure. Initially, I found it a bit overwhelming, but with some persistence and a little trial and error, I quickly got the hang of it. While working on this project, I did encounter a few hurdles, particularly when it came to tweaking the sizing adjustment in the media queries. It was a bit frustrating, but I eventually struck the right balance. Overall, it was an enjoyable experience, and I believe I successfully fulfilled all the requirements of the challenge.
