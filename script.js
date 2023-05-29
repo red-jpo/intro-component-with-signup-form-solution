@@ -70,7 +70,7 @@ let errorFunc = function () {
     passwordError.style.display = "none";
   }
   if (!password.value.match(passValidation) && password.value.length !== 0) {
-    passError.style.display = "inline";
+    passwordError.style.display = "inline";
     passwordLabel.textContent = "The password must be 8 numeric characters.";
     password.style.borderColor = "red";
   } else if (
@@ -92,3 +92,32 @@ claimBtn.addEventListener("click", function (e) {
   e.preventDefault();
   errorFunc();
 });
+
+// let errorFunc = function () {
+
+//   if (password.value.length === 0) {
+//     passwordError.style.display = "inline";
+//     passwordLabel.textContent = "Password cannot be empty";
+//     password.style.borderColor = "red";
+//   } else {
+//     password.style.borderColor = "hsl(246, 25%, 77%)";
+//     passwordLabel.textContent = "";
+//     passwordError.style.display = "none";
+//   }
+//   if (!password.value.match(passValidation) && password.value.length !== 0) {
+//     passwordError.style.display = "inline";
+//     passwordLabel.textContent = "The password must be 8 numeric characters.";
+//     password.style.borderColor = "red";
+//   } else if (
+//     firstName.value.length !== 0 &&
+//     lastName.value.length !== 0 &&
+//     emailAddress.value.length !== 0 &&
+//     emailAddress.value.match(emailValidation) &&
+//     password.value.match(passValidation) &&
+//     password.value.length !== 0
+//   ) {
+//     confirmationMsg.textContent = "Success! Please, check your email";
+//   } else {
+//     console.log("err");
+//   }
+// };
