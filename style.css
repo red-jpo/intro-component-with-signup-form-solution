@@ -107,6 +107,7 @@ form input:focus-visible {
   outline-color: hsl(248, 32%, 49%);
 }
 form img {
+  display: none;
   right: 5%;
   top: 30%;
   position: absolute;
